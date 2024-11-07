@@ -73,20 +73,23 @@ nav {
 
 .box {
     background-color: black;
-    padding: 0; 
-    margin: 0 auto; 
-    width: fit-content; 
+    padding: 0; /* No extra padding */
+    margin: 0 auto; /* Center alignment */
+    width: fit-content; /* Fit closely around content */
     display: flex;
     justify-content: center;
-    gap: 0; 
+    gap: 0;
+    border: 8px solid black;
+    border-radius: 5px; 
 }
 
 #img {
-    width: auto; 
-    height: auto; 
+    width: auto;
+    height: auto;
     display: block;
-    max-width: 300px; 
+    max-width: 300px; /* Optional max width */
 }
+
 
 h3 {
     text-align: center;
