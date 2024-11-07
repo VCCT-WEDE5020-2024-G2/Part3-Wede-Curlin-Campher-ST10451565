@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”description” content="For info about Sushi & Chinese Dumpling about our foods,prices,menus get in conact with us from Monday to Thursday 11 to 20 and Fridays from 10 to 9"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact_us</title>
+    <meta name=”keywords” content="Sushi & Chinese Dumpling contact info,Sushi & Chinese Dumpling Phone number,
+    Sushi & Chinese Dumpling email address">
+
+    <link rel="stylesheet" href="_img/styles.css"> 
+</head>
+
+
+
+<body id="backgroundcolor">
+
+    <img id="logo" src="_img/Logo.png" alt="Logo of the Shushi restaurant">
+
+    <h1>Sushi & Chinese dumpling</h1>
+
+
+
+    <nav>
+        <a href="index.html">Homepage</a>
+        <a href="about_us.html">About Us</a>
+        <a href="location.html">Location</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact_us.html">Contact Us</a>
+    </nav>
+
+    
+    
+
+<h2 id="center">For More info about Sushi & Chinese dumpling you can contact us</h2>
+
+<p id="center"> 044 690 4164</p>
+<p id="center"> Jiexing1314@gmail.com </p>
+
+<td>
+    <input type="text" name="myName" id="myName" 
+    value="Your name here" onfocus="this.value=''"></td> 
+    <td><input type="email" name="myEmail" id="myEmail" 
+    value="Your email here" onfocus="this.value=''"></td>
+    <td>
+        <input type="text" name="yourGender" id="gender" 
+        value="your Gender" onfocus="this.value=''"></td> 
+  
+    <input type="submit" value="Submit" 
+onclick="validateForm()"> 
+
+<script> 
+    //below is the function that runs when Submit is 
+    clicked 
+    function validateForm(){ 
+    //Check that someone has actually entered 
+    
+
+    var validateName = 
+    document.getElementById("myName").value; 
+    if (validateName == "Your name here" || 
+    validateName == ""){ 
+    alert("Please enter your name"); 
+    } 
+    //Check that the email address includes a @ 
+   
+    var validateEmail = 
+    document.getElementById("myEmail").value;
+
+    if (validateEmail.includes("@") && 
+validateEmail.includes(".")){} 
+else{alert("Not a valid email format")} 
+} 
+
+</script>
+
+<form  
+action="ST10451565@vcconnect.edu.za" method="post"  
+id="membershipForm" enctype="text/plain"> 
+
+
+
+<footer>
+    &copy; Copyright 2024
+</footer>
+    
+</body>
+</html>

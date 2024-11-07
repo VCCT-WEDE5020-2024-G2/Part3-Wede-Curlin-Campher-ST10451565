@@ -1,0 +1,221 @@
+#HeadingsLink {
+    text-align: center;
+    margin-top: 20px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+
+
+
+#headingHome {
+
+    text-align: center;
+    color: black;
+    font-size:  ;
+    
+    }
+
+    h1{
+
+        text-align: center;
+        color: black;
+        font-size: 2em;
+     
+        }
+
+
+     h2{
+        
+        font-size: 1.5em;
+
+     }   
+
+#backgroundcolor {
+
+    background-color: rgba(243, 49, 14, 0.852);
+}
+
+#center {
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+}
+
+#logo {
+
+    width: 200px;
+    height: 200px;
+}
+
+#heroshot {
+
+    width: 1366px;
+    height: 450px;
+
+}
+
+#smallphoto {
+
+    width: 400px;
+    height: 250px;
+}
+
+#largephoto{
+
+    width: 400px;
+    height: 800px;
+    float: right;
+}
+
+.box {
+    background-color:black; 
+    padding: 20px; 
+    margin: 20px auto; /
+    width: fit-content; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+#img {
+    width: 300px; 
+    height: 400px; 
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 1.17em;
+}
+
+p{
+    font-size: 16px;
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    nav {
+        margin: 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+    
+    #headingHome {
+    
+        text-align: center;
+        color: black;
+        font-size: ;
+        
+        }
+    
+        h1{
+    
+            text-align: center;
+            color: black;
+            font-size: 36px;
+         
+            }
+    
+    
+         h2{
+            
+            font-size: 24px;
+    
+         }   
+    
+    #backgroundcolor {
+    
+        background-color: rgba(243, 49, 14, 0.852);
+    }
+    
+    #center {
+    
+            text-align: center;
+            display: flex;
+            justify-content: center;
+    
+    }
+    
+    #logo {
+    
+        width: 200px;
+        height: 200px;
+    }
+    
+    #heroshot {
+    
+        width: 1366px;
+        height: 450px;
+    
+    }
+    
+    #smallphoto {
+    
+        width: 400px;
+        height: 200px;
+    }
+    
+    #largephoto{
+    
+        width: 400px;
+        height: 800px;
+    }
+    
+    .box {
+        background-color:black; 
+        padding: 20px; 
+        margin: 20px auto; /
+        width: fit-content; 
+        display: flex; 
+        justify-content: center; 
+        gap: 20px; 
+    }
+    
+    #img {
+        width: 300px; 
+        height: 400px; 
+        display: block;
+    }
+    
+    h3 {
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-size: 24px; 
+    }
+    
+    p{
+        font-size: 16px;
+    
+    }
+    
+
+    
+    
+    
+     
+
+}
+
+
+
+
+
+
+
+
+
+
+
