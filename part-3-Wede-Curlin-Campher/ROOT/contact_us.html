@@ -87,6 +87,18 @@ validateEmail.includes(".")){}
 else{alert("Not a valid email format")} 
 } 
 
+var validateGender = document.getElementById("myGender").value;
+        if (validateGender == "Your gender" || validateGender == ""){ 
+            alert("Please enter your gender"); 
+            return false;
+        }
+
+        var validatePhoneNumber = document.getElementById("myPhoneNumber").value;
+if (validatePhoneNumber == "Your phone number" || validatePhoneNumber == "") { 
+    alert("Please enter your phone number"); 
+    return false;
+}
+
 </script>
 
 <form  
