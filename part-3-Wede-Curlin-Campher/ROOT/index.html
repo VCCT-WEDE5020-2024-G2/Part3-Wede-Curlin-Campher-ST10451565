@@ -15,14 +15,16 @@
 
 </head>
 
+
 <body id="backgroundcolor">
+    
 
     <img id="logo" src="_img/Logo.png" alt="Shushi Logo">
 
     <h1>Sushi & Chinese Dumpling</h1>
 
     <h2 id="headingHome" >Sushi makes your life better!</h2>
-
+    
     <nav>
         <a href="index.html">Homepage</a>
         <a href="about_us.html">About Us</a>
@@ -32,13 +34,50 @@
     </nav>
 
     <h3>Welcome to Sushi & Chinese Dumpling, where we sell the best Sushi in Mossel Bay</h3>
-
+    
     <img id="heroshot" src="_img/heroshot.jpg" alt="heroshot of the loaction of the Shushi & Chinese Dumpling">
+
+     <img class="imgSlider" id="rotatingImage" src="_img/chinese_menu_one.jpg" alt="Rotating Image">
+
+    <script>
+        // Array of image URLs
+        const images = [
+            "_img/chinese_menu_one.jpg",
+            "_img/extra.jpg",
+            "_img/platter.jpg",
+            "_img/combo_one.jpg"
+        ];
+
+        // Starting index
+        let currentIndex = 0;
+
+        // Function to change the image
+        function changeImage() {
+            // Get the image element
+            const imgElement = document.getElementById("rotatingImage");
+            
+            // Update the src attribute to the next image
+            imgElement.src = images[currentIndex];
+
+            // Update the index (loop back to 0 if at the end)
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+
+        // Change image every 3 seconds (3000 ms)
+        setInterval(changeImage, 3000);
+
+       
+    </script>
+    
+    
+
 
     <p>We are a restaurant located in Mossel Bay. For more info, click on the Location link above. We serve not only sushi but also other Chinese food to please your palate. As our slogan says, "Sushi makes your life better," so come down and treat yourself. After tasting our food, the only words you’ll say are, "Dit voel asof 'n engel op my tong gepiepie het!"</p>
 
     <img id="smallphoto" src="_img/port_one.jpg" alt="Small photo preivew of the food">
     <img id="largephoto" src="_img/port_two.jpg" alt="largephoto photo preivew of the food">
+
+    
 
 
     <footer>
@@ -46,12 +85,11 @@
         &copy; Copyright 2024
     </footer>
     
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const logo = document.getElementById("logo");
-            logo.classList.add("glow");
-        });
-    </script>
+    
+
+
+
+
 </body>
 
 </html>

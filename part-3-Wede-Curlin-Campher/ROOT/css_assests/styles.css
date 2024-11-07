@@ -91,6 +91,7 @@ nav {
 }
 
 
+
 h3 {
     text-align: center;
     color: black;
@@ -101,6 +102,21 @@ p{
     font-size: 16px;
 
 }
+
+
+.imgSlider {
+    width: auto;
+    height: auto;
+    display: block;
+    max-width: 300px; 
+    text-align: center;
+    margin: 0 auto; 
+}
+
+
+  
+  
+
 
 @media only screen and (max-width: 960px) {
 
